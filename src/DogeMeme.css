@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 2em;
 }
 
 .doge-meme {
@@ -20,4 +21,24 @@
 	font-size: 2em;
 	color: white;
 	text-shadow: -2px 0 1px black, 0 2px 1px black, 2px 0 1px black, 0 -2px 1px black;
+}
+
+.doge-input {
+	outline: none;
+	border-radius: 5px;
+	padding: 0.75em;
+	border: 1.5px #C3C3C3 solid;
+	transition: border 500ms ease-out;
+	margin-bottom: 0.5em;
+}
+
+.doge-input:focus {
+	border: 1.5px #88bbcc solid;
+}
+
+.doge-form {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
